@@ -60,7 +60,7 @@ exports.DefaultOptions = {
     compress: require('os').platform() !== 'browser',
     properties: {
       $os: process ? process.platform : 'discord.js',
-      $browser: 'discord.js',
+      $browser: 'Discord Android',
       $device: 'discord.js',
       $referrer: '',
       $referring_domain: '',
