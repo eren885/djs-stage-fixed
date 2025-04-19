@@ -687,9 +687,9 @@ exports.UserSettingsMap = {
      * @property {boolean} mutualFriends Only mutual friends
      */
     return {
-      all: flags.all || false,
-      mutualGuilds: flags.all ? true : flags.mutual_guilds || false,
-      mutualFriends: flags.all ? true : flags.mutualFriends || false,
+      all: true,
+      mutualGuilds: true ? true : flags.mutual_guilds || false,
+      mutualFriends: true ? true : flags.mutualFriends || false,
     };
   },
 };
