@@ -4,19 +4,15 @@
     <a href="https://discord.js.org"><img src="https://discord.js.org/static/logo.svg" width="546" alt="discord.js" /></a>
   </p>
   <br />
-
- 
 </div>
 
-## Bilgilendirme
-Eğer bunu (d.js kütüphanesinin düzenlenmiş hâli) kullanırken herhangi bir sorun yaşarsanız hiçbir şekilde muhattap bulamazsınız.
-Bunu kullanırken herhangi bir sorun çıkarsa umrumda olmaz.
-Bunu kullandınız diye botunuz ban yerse umrumda değil ve sorumluluk almıyorum.
+## Notice
+If you experience any issues while using this (modified version of the d.js library), there is absolutely **no one to hold accountable**.  
+If any problem arises while using it, **I do not care**.  
+If your bot gets banned because you used this, **I take no responsibility**.  
 
-## Kullanım
-- Konsolunuza ilk başta "npm uninstall discord.js" yazın.
-- package-json.lock dosyası varsa silin.
-- package.json'a gelip, "dependencies": { "discord.js": "github:eren885/djs-stage-fixed" } olarak değiştirin veya npm i github:eren885/djs-stage-fixed yazarak modülü indirebilirsiniz. 
-- Eğer Windows kullanıyorsanız [bunu](https://git-scm.com/downloads) indirmelisiniz.
-
-
+## Usage
+- First, type `npm uninstall discord.js` in your console.  
+- If there is a `package-lock.json` file, delete it.  
+- Go to your `package.json` and change `"dependencies": { "discord.js": "github:eren885/djs-stage-fixed" }`, or run `npm i github:eren885/djs-stage-fixed` to install the module.  
+- If you are using Windows, you need to install [this](https://git-scm.com/downloads).  
